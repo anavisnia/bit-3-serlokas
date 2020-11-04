@@ -1,9 +1,43 @@
-h1 {
-  color: red;
-  font-size: 80px;
+body {
+  /* background-color: rgba(235, 236, 238); */
+background-color: #ebecee;
 }
 
-p {
-  color: blue;
-  font-size: 30px;
-}
+  img {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 20%;
+  }
+
+  div {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    float: left;
+    /* background-color: blueviolet; */
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+    h1 {
+      display: inline-block;
+      font-size: 120px;
+      width: 100%;
+      margin: 0;
+    }
+
+    p {
+      display: inline-block;
+      width: 100%;
+      font-size: 30px;
+    }
+
+    a {
+      display: inline-block;
+      color: white;
+      background-color: #686f89;
+      padding: 20px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
