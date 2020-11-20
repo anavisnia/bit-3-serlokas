@@ -10,13 +10,13 @@ body {
   display: inline-block;
   float: left;
   width: 270px;
-  margin-top: 200px;
+  margin-top: 210px;
   /* height: calc(100% - 314px); */
   text-align: center;
 }
 .main-img > img {
   width: 270px;
-  margin-left: 400px;
+  margin-left: 500px;
 }
 /* right */
 .main-text {
