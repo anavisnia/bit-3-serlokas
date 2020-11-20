@@ -57,5 +57,43 @@ body {
   text-decoration: none;
 }
 
-@media() {
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  /* left */
+  .main-img {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .main-img > img {
+    width: 300px;
+  }
+  /* right */
+  .main-text {
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 0px;
+    padding: 0 140px;
+  }
+  .main-text h1 {
+    font-size: 100px;
+  }
+  .main-text .main-p {
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    padding: 0 0 30px 0;
+    color: #686f89;
+  }
+  .main-text p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .main-text a {
+    padding: 15px;
+  }
 }
