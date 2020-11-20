@@ -3,29 +3,31 @@ body {
 }
 .container {
   display: inline-block;
-  width: 100%;
+  width: 1000px;
+  margin: 0 calc(50% - 500px);
 }
 /* left */
 .main-img {
   display: inline-block;
   float: left;
-  width: 270px;
+  width: 300px;
   margin-top: 210px;
   /* height: calc(100% - 314px); */
   text-align: center;
+  margin-left: 90px;
 }
 .main-img > img {
-  width: 270px;
-  margin-left: 500px;
+  width: 300px;
 }
 /* right */
 .main-text {
   display: inline-block;
   float: right;
   width: 500px;
-  margin-top: 250px;
+  margin-top: 280px;
   text-align: center;
-  margin-right: calc(40% - 250px);
+  margin-right: 90px;
+  padding: 0 20px;
 }
 .main-text h1 {
   display: inline-block;
